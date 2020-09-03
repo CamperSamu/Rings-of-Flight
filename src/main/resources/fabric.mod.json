@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "flyring",
+  "version": "${version}",
+  "name": "Ring of Flight",
+  "description": "A simple mod that adds a pair of balanced end game rings that allows you to fly",
+  "authors": [
+    "Camper_Samu"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/flyrings/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.campersamu.flyrings.ModInit"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.9.1",
+    "fabric": "*"
+  },
+
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:clientsideOnly": false,
+
+    "modupdater": {
+      "strategy": "curseforge",
+      "projectID": 406054
+    }
+  }
+}

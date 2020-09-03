@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EWE",
+    "WRW",
+    "EWE"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "flyrings:ring_of_flight",
+    "count": 1
+  }
+}

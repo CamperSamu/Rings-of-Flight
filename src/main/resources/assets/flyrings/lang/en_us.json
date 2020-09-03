@@ -1,0 +1,7 @@
+{
+  "item.flyrings.ring_of_flight": "Ring of Flight",
+  "item.flyrings.ring_of_flight.tooltip": "When equipped this ring grants §bcreative fly§r but consumes XP",
+  "item.flyrings.advanced_ring_of_flight": "Advanced Ring of Flight",
+  "item.flyrings.advanced_ring_of_flight.tooltip0": "Upgraded version of the Ring of Flight.",
+  "item.flyrings.advanced_ring_of_flight.tooltip1": "When equipped this ring grants §bcreative fly§r without consuming XP!"
+}

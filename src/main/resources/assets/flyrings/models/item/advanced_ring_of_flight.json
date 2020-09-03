@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "flyrings:item/advanced_ring_of_flight"
+  }
+}
