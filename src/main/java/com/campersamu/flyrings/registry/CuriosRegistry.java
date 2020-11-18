@@ -21,10 +21,8 @@ import static com.campersamu.flyrings.ModInit.MOD_ID;
 
 public class CuriosRegistry {
     public static void init() {
-
         CuriosApi.enqueueSlotType(SlotTypeInfo.BuildScheme.REGISTER, SlotTypePreset.RING.getInfoBuilder().build());
         ItemComponentCallbackV2.event(ItemRegistry.FLY_RING).register(
-
                 ((item, itemStack, componentContainer) -> componentContainer
                         .put(CuriosComponent.ITEM, new ICurio() {
                             @Override
@@ -81,7 +79,6 @@ public class CuriosRegistry {
                             public boolean canRightClickEquip() {
                                 return true;
                             }
-                        })
-                ));
+                        })));
     }
 }
